@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Guild Wars 2: Inventory Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <!--Navbar template -->
+    <link href="navbar.css" rel="stylesheet">
+    <!-- Grid CSS -->
+    <link href="grid.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+	<div class="navbar-header>
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		    </button>
+		    <a class="navbar-brand" href="#">Inventory Manager</a>
+      </div>
+      <div class="navbar-collapse collapse">
+	<ul class="nav navbar-nav">
+	  <li class="active"><a href="#">New</a></li>
+	  <li><a href="#">Browse</a></li>
+	</ul>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+  <h1>Guild Wars 2: Inventory Management</h1>
+
+  <div class="col">
+    <div class="col-md-6">
+      <h3>Welcome to the Inventory Manger!</h3>
+      <img src="images/Guild-Wars-icon.png" class="img-rounded" alt="Guild Wars">
+    </div>
+    <div class="col-md-6">
+      <p>
+	Cupcake ipsum dolor sit amet bonbon I love. Chocolate cake cake cupcake tart tiramisu toffee toffee gummies. Croissant marshmallow pie pudding dragée toffee fruitcake.
+	Unerdwear.com pastry I love candy cake pie brownie topping sugar plum. Cheesecake I love I love. Pie danish cake danish. Croissant chocolate bar I love tart macaroon sugar plum.
+	Topping unerdwear.com powder cotton candy bear claw. Soufflé fruitcake sugar plum muffin oat cake toffee dragée icing. Jelly fruitcake jelly-o sugar plum chupa chups pie. Jelly cookie dessert ice cream I love bear claw candy canes.</p>
+      <p> Tart carrot cake apple pie candy canes lemon drops sweet roll candy canes brownie. Soufflé I love I love lemon drops oat cake liquorice. Apple pie icing candy canes I love bear claw apple pie dessert donut. I love chocolate bar sugar plum.</p>
+      <p> Candy jelly sweet roll I love. Gingerbread wafer wafer I love. Topping cake cheesecake pastry icing.
+      </p>
+      <a class="btn btn-primary">Jump right in</a>
+    </div>
+  </div>
+</div>
+
+<script src="//code.jquery.com/jquery.js"></script>
+<script src="js.bootstrap.min.js"></script>
+</body>
+</html>
